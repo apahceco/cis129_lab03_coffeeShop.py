@@ -9,8 +9,8 @@ additional sales tax for the total amount due.
 # Version: 2
 '''
 # Line 11 is Greeting, menu. 
-print('Hi, welcome to BA Coffee and Muffin Shop!\n\nOur Menu\n\nCup of Coffee:$5\nShot of Espresso:$8\nMuffins:$4\nBagels:5\n\nAt the end of your order, there will be an included 6 percent tax on your subtotal.\n') 
-print('When you\'re ready, please enter a whole digit number.\nEx:1,12,100') # With directions to enter a whole number in digit format with example. 
+print('Hi, welcome to BA Coffee and Muffin Shop!\n\nOur Menu\n\nCup of Coffee:$5\nShot of Espresso:$8\nMuffins:$4\nBagels:$5\n\nAt the end of your order, there will be an included 6 percent tax on your subtotal.\n') 
+print('When you\'re ready, please enter a whole digit number.\nEx:1,12,100\n') # With directions to enter a whole number in digit format with example. 
 
 num_coffees = int(input("How many cups of coffee would you like to order?\n")) # Promps the user for how many coffees and adds a new line for better readability.
 price_coffees = 5 * num_coffees  # This will process the number of coffees and multiply it by the price for the receipt. 
